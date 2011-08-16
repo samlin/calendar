@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveEventServlet</servlet-name>
+    <servlet-class>com.calendar.web.SaveEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListEventServlet</servlet-name>
+    <servlet-class>com.calendar.web.ListEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteEventSevlet</servlet-name>
+    <servlet-class>com.calendar.web.DeleteEventSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveCalendarServlet</servlet-name>
+    <servlet-class>com.calendar.web.SaveCalendarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCalendarServlet</servlet-name>
+    <servlet-class>com.calendar.web.ListCalendarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>com.calendar.web.InitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCalendarServlet</servlet-name>
+    <servlet-class>com.calendar.web.DeleteCalendarServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SaveEventServlet</servlet-name>
+    <url-pattern>/servlet/SaveEventServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListEventServlet</servlet-name>
+    <url-pattern>/servlet/ListEventServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEventSevlet</servlet-name>
+    <url-pattern>/servlet/DeleteEventSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveCalendarServlet</servlet-name>
+    <url-pattern>/servlet/SaveCalendarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCalendarServlet</servlet-name>
+    <url-pattern>/servlet/ListCalendarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/servlet/InitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCalendarServlet</servlet-name>
+    <url-pattern>/servlet/DeleteCalendarServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
